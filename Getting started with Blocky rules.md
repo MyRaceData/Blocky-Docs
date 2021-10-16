@@ -20,4 +20,8 @@ If you need more help, go to the rules section of the openHAB documentation. Fol
 
 In this screen, you are going to create a trigger. A Trigger is an event that causes your rule to run. There are lots of things that openHAB can be made to trigger on. Devices in your home automation system can trigger events or you can create a trigger based on a certain time of day. That is what we are going to do, we are going to create a rule that triggers using time so pick the button that says 'Time Event' (shown in the picture above)
 ## Your first trigger action
+We are going to create our first trigger to run on a schedule. To do so, we are going to create what is called a cron expression. A cron expression is a way of scheduling something to happen periodically at a certain time or on a certain day or just at a given interval of time. If this all sounds horribly complex, consider how powerful it could be to have your home automation do certain things at certain times. Cool huh? Let dig in!
+Once you click the Time Event button you will see the screen below
+
+![cron1](
 
