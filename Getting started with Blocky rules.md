@@ -12,5 +12,12 @@ First, click the blue dot with the plus sign on it to create a new rule. Once yo
 
 ![blue dot](https://www.openhab.org/assets/img/ui_rules_dsl_test_example.599c0fd5.png)
 
-Once you are in the rule editor (pictured above), give your new rule a name and then create a trigger by clicking the green Add Trigger button. If you need more help, go to the rules section of the openHAB documentation. Follow the instructions to for: [UI based definition](https://www.openhab.org/docs/configuration/rules-dsl.html#ui-based-definition)  (which means User Interface based rule definition)
-You will be presented with the When screen (pictured below)
+Once you are in the rule editor (pictured above), give your new rule a name and then create a trigger by clicking the green Add Trigger button. You will be presented with the When screen (pictured below)
+
+![When screen](https://github.com/MyRaceData/Blocky-Docs/blob/main/When%20screen.png)
+
+If you need more help, go to the rules section of the openHAB documentation. Follow the instructions to for: [UI based definition](https://www.openhab.org/docs/configuration/rules-dsl.html#ui-based-definition)  (which means User Interface based rule definition)
+
+In this screen, you are going to create a trigger. A Trigger is an event that causes your rule to run. There are lots of things that openHAB can be made to trigger on. Devices in your home automation system can trigger events or you can create a trigger based on a certain time of day. That is what we are going to do, we are going to create a rule that triggers using time so pick the button that says 'Time Event' (shown in the picture above)
+## Your first trigger action
+
