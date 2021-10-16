@@ -88,10 +88,10 @@ This is great but you might be asking yourself what exactly does my new rule do?
 ## Let's check the log
 openHAB creates a log file as it runs. Every time an event happens, it is logged into the log file. As you learn to use openHAB, looking at the log will (at times) become very important. 
 
-![other apps](https://user-images.githubusercontent.com/25418996/137603401-294ca839-e359-4ed4-bdbf-4d44ceea27f9.png)
+![other apps](https://user-images.githubusercontent.com/25418996/137603618-23007e2d-c7bb-4da1-9e89-2134974f44f4.png)
 
 Returning to the main page (by clicking the big openHAB icon in the top left corner) you will notice a little retangle orange button in the upper right corner next to an icon that looks like a pen. This is the other apps button, click it
 
 ![log viewer](https://user-images.githubusercontent.com/25418996/137603402-38931c3b-776f-4437-a162-62190c6fc241.png)
 
-
+Choose openHAB Log Viewer (top right above) to open the log viewer
