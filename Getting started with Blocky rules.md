@@ -98,4 +98,4 @@ Choose openHAB Log Viewer (top right above) to open the log viewer. The log view
 
 ![log entry](https://user-images.githubusercontent.com/25418996/137603949-7540d000-9bdb-4b32-b4bc-2213fd74d185.png)
 
-if the log viewer does not open, you may need to install logtail. If you used openHAbian to install openHAB check [Here](https://www.openhab.org/docs/installation/openhabian.html#optional-components) on how to install logtail
+if the log viewer does not open, you may need to install Frontail. Frontail is an optional component of openHAB which allows you to view the log in real time. If you used openHAbian to install openHAB check [Here](https://www.openhab.org/docs/installation/openhabian.html#optional-components) on how to install Frontail
