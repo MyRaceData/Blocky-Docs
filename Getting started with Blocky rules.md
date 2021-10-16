@@ -94,4 +94,7 @@ Returning to the main page (by clicking the big openHAB icon in the top left cor
 
 ![log viewer](https://user-images.githubusercontent.com/25418996/137603402-38931c3b-776f-4437-a162-62190c6fc241.png)
 
-Choose openHAB Log Viewer (top right above) to open the log viewer
+Choose openHAB Log Viewer (top right above) to open the log viewer. The log viewer should open in a new browser tab and you should be able to see the log running and every minute, you should see an entry like below
+
+![log entry](https://user-images.githubusercontent.com/25418996/137603949-7540d000-9bdb-4b32-b4bc-2213fd74d185.png)
+
