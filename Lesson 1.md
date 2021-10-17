@@ -47,6 +47,7 @@ Now go to **Setting ----> Items** and you shouls see your new Item
 
 Don't worry if you don't understand exactly what all this **Item** and **Thing** stuff means yet, you will learn soon enough how to use these things and items you created
 ## Create another Script
+First, if you do not have your log veiwer running, start it back up and leave it running. You will need it later
 By now you should be familar with create a new rule. Do as you did in the first lesson and create a new rule. Set it to run every minute like the first rule you created. Create an Action and create a new script just as you did in the first lesson. when the Blocky visail editor screen appears, click openHAB, grab a log block like in the first lesson.
 
 ![Screenshot 2021-10-16 at 21-55-50 openHAB](https://user-images.githubusercontent.com/25418996/137607483-a79b634c-2221-46fe-b1fb-cbcc10916a9a.png)
@@ -66,5 +67,41 @@ Then go to back to Text and grab a plain text block and drag it into the editor
 Land the plain text block on the create text block and type 'The sun phase is: ' (notice the extra space at the end of the text)
 
 ![Screenshot 2021-10-16 at 22-14-24 openHAB](https://user-images.githubusercontent.com/25418996/137607844-137a34e9-8d26-443e-85b4-24800f19a7e5.png)
+## Creating a Variable
+Next we are going to create a variable. A Variable is like a place holder. We can place information in a variable and use it later in the script. First pick Variables from the list
 
+![click var](https://user-images.githubusercontent.com/25418996/137608291-55707b2b-a0df-44e6-9119-8ad408bd0db5.png)
 
+Click Create Variable... A dialog box will pop up. With in the dialog box, in the text box labeled New variable name type 'MyVariable' then click OK. The dialog box will close and you will see some new Blocks to use
+
+![myvar](https://user-images.githubusercontent.com/25418996/137608332-fc2b9636-e1ea-4a02-8a52-07c4122cd244.png)
+
+Choose the one that says Set MyVariable to and drag it into the editor. Land it on top of the log block so it looks like this
+
+![Screenshot 2021-10-16 at 22-35-19 openHAB](https://user-images.githubusercontent.com/25418996/137608395-7b50b120-016d-42b6-8295-a11cd0ca55b2.png)
+
+Now go back to the openHAB tab and grab the block that says Get item state
+
+![get state](https://user-images.githubusercontent.com/25418996/137608486-1bb9f3a2-21d2-45f8-8b02-fe31973f3ad8.png)
+
+land it on the Set variable block so it looks like this
+
+![Screenshot 2021-10-16 at 22-43-17 openHAB](https://user-images.githubusercontent.com/25418996/137608573-d8fb1eb9-dd6e-4a0e-ba71-264eb7a14d96.png)
+
+Then click whereit says Item MyItem
+
+![myitem](https://user-images.githubusercontent.com/25418996/137608634-a6c22b8d-c03f-4de6-8680-6487ca734241.png)
+
+A screen will pop up where you can pick an Item. Pick you Sun phase item and then click Pick in the upper right corner
+
+![Screenshot 2021-10-16 at 22-42-50 openHAB](https://user-images.githubusercontent.com/25418996/137608694-fd4e5757-5abb-4fe6-8ce2-92e4726203ff.png)
+
+Your item will appear in the block like so
+
+![Screenshot 2021-10-16 at 22-48-42 openHAB](https://user-images.githubusercontent.com/25418996/137608744-bef60d40-2c15-41f5-b654-e784a4ad3d9b.png)
+
+Then go back to the Variables tab and grab another MyVariable block and add it to the create text block so it looks like this
+
+![Screenshot 2021-10-16 at 22-53-40 openHAB](https://user-images.githubusercontent.com/25418996/137608893-38f030dc-5715-4470-85d8-57e338c53ab4.png)
+
+At this point, if you hit the save button, 
