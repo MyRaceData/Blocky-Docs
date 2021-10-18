@@ -1,1 +1,2 @@
-
+# Introduction
+With the release of openHAB 3 in December 2020 this open source home automation solution took a huge step towards being more user friendly. With openHAB 3 came a brand new user interface that not only could be used to control home automation devices but also fully configure and administer the system. Almost every setting and configuration can be made using this simple and intuitive design. The new interface is sleek, modern and highly customizable. With all the excitement surrounding the new user interface, it was easy to miss the inclusion of another feature that made it's debut in openHAB 3. Blockly, a visual programming language was also included in openHAB 3. 
