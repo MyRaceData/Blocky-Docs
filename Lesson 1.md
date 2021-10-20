@@ -17,8 +17,12 @@ And three buttons will appear across the bottom of the screen. You may then remo
 ## Getting started
 Now that we have created our first rule, we will try to do something more useful. When you create home automation often you need to know some basic things to make decisions. For example, suppose we want to turn on a light at night when it gets dark. We need to know when it gets dark to do so, and this rule will give us the ability to know when it is dark outside. But to do so, we will need to dive a little deeper into using openHAB. We will install a binding to use in our rule to help us learn when it is dark outside. You still will not need any actual home automation devices to complete this lesson if you are just taking openHAB for a test drive. So let's get started
 ## Install the Astro Binding
-The first step in this lesson is to install the Astro binding. Binding are add-ons for openHAB. You can read more about them [here.](https://www.openhab.org/docs/tutorial/things_simple.html) Often a binding creates a connection with some home automation device hardware you have purchased or made. But some bindings, like the astro binding provide a service of some kind. Installing a binding usually creates what is called a **Thing** in openHAB [nomenclature](https://en.wikipedia.org/wiki/Nomenclature)
+The first step in this lesson is to install the Astro binding. Binding are add-ons for openHAB. You can read more about them [here.](https://www.openhab.org/docs/tutorial/things_simple.html) Often a binding creates a connection with some home automation device hardware you have purchased or made. But some bindings, like the astro binding provide a service of some kind. 
+### What does the Astro Binding do?
+The Astro binding uses your location to track the position of the sun and moon. By knowing the position of the sun, we can calculate when sunrise and sunset occur (and a whole bunch of other stuff as well!) When you first installed openHAB, the set up asked you to enter your location on a map. If you did so, you are all set and can continue by installing the astro binding. 
 
+
+Installing a binding usually creates what is called a **Thing** in openHAB [nomenclature](https://en.wikipedia.org/wiki/Nomenclature)
 Go to **Setting ----> Things** and install the astro binding by clicking the blue button in the lower right corner
 
 ![thing create](https://user-images.githubusercontent.com/25418996/137605790-2a931199-5ef2-4b7f-b7cf-80d73be39185.png)
