@@ -29,15 +29,20 @@ Once you click the Time Event button you will see the screen below
 
 ![Cron 1](https://user-images.githubusercontent.com/25418996/137599511-d01315ae-74a1-4c9f-aa53-0be315d329e6.png)
 
-Under When choose the button that says 'on a schedule (cron)' (as shown in the picture above) Next,  Notice at the very top of the photo above it says Cron:0 * * * * ? * and below that every minute. The 0 * * * * ? * is the actual cron expression you have created. Now click the Done button in the upper right corner of the photo. This will return you to the Add Trigger screen (shown below) 
+Under When choose the button that says 'on a schedule (cron)' (as shown in the picture above) Next, just below the buttons, you will notice where it says cron expression, there is a blank space and below that it says Error: Expression is empty. In the blank space type the following:
+
+0 * * * * ? *
+
+That is a zero, a space, an asterisk, a space, an asterisk, a space, an asterisk, a space, an asterisk, a space, a question mark, a space, and an asterisk
+If you did it correctly, where it used to say Error: Expression is empty, it should now say Every minute. (as shown in the photo below)
  
 ![cron every](https://user-images.githubusercontent.com/25418996/137601875-a3d4296d-abfd-4efb-a5f0-998c73c45e02.png)
 
-You have now create a trigger which will run once every minute by creating a cron expression. Notice in the photo above, in the lower left corner, it nows shows your new cron expression. Click the Done button (in the top right corner of the photo above) You will return to the rule editor, it should look like below
+Now click the Done button in the upper right corner of the photo above. This will return you to the Create rule screen (shown below) It should look like below
 
 ![almost there](https://user-images.githubusercontent.com/25418996/137602007-1a8eaca5-cd93-4a70-b6b8-261e0b54ef75.png)
  
-Notice under When it now says Every minute. Our rule will now run once every minute. It is now time to create an Action to perform every time our rule runs. Click on the green button under Then that says Add Trigger (at the bottom of the photo above
+You have now create a trigger which will run once every minute by creating a cron expression. Notice under When it now says Every minute. Our rule will now run once every minute. It is now time to create an Action to perform every time our rule runs. Click on the green button under Then that says Add Trigger (at the bottom of the photo above
 ## Your first script
 Finally, it is time to create a script to run when our rule triggers. Once you click Add Action, you should see a screen like below
 
