@@ -28,6 +28,11 @@ Go to **Setting ----> Things** and install the astro binding by clicking the blu
 
 ![thing create](https://user-images.githubusercontent.com/25418996/137605790-2a931199-5ef2-4b7f-b7cf-80d73be39185.png)
 
+A list of bindings will appear (as shown below) Scroll down until you find astro binding and click on it
+
+![bindings](https://www.openhab.org/assets/img/install_hue.260e5df5.png)
+
+A dialog box will pop up (as shown above for the Hue binding)
 Wait a few minutes until the binding is installed and a couple things should pop up in your inbox. Accept them in your inbox and you should see two new **things** in your list, a Local Sun thing and a Local Moon thing
 
 ![local sun](https://user-images.githubusercontent.com/25418996/137606449-2af007a2-efb3-41c7-96ba-08393b083563.png)
