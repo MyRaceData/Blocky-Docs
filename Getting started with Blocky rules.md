@@ -29,21 +29,7 @@ Once you click the Time Event button you will see the screen below
 
 ![Cron 1](https://user-images.githubusercontent.com/25418996/137599511-d01315ae-74a1-4c9f-aa53-0be315d329e6.png)
 
-Under When choose the button that says 'on a schedule (cron)' (as shown in the picture above) Next, below that, where it says cron expression on the right is a little orange colored button that says 'Build'.
-Once you click that button, you will see a screen as shown below
-
-![cron secs](https://user-images.githubusercontent.com/25418996/137601631-81863857-6a67-423f-ba53-aac086b9fe60.png)
-
-This is the built in cron expression builder, which makes creating a cron expression really easy. Notice there are tabs for Seconds, Minutes, Hours, Days, Month and Years at the top. In the photo, we are in the seconds tab. If it is not already selected, click on the third button down, Specific second (choose one or many). Then click on the Minutes tab
-
-![cron mins](https://user-images.githubusercontent.com/25418996/137602584-94225e2c-4e44-4c62-90f5-751ce661e69b.png)
-
-Click on the second button down Every (as shown above) and change it to 1 (every 1 minute). Then click the Hours tab.
-
-
- ![cron hours](https://user-images.githubusercontent.com/25418996/137601803-f8402e8b-791e-4e59-90f4-c3b6944bd697.png)
-
- Click the top button Every hour (as shown in the photo above). You can click though the remaining tabs the same way choosing every day, every month and every year. Notice at the very top of the photo above it says Cron:0 * * * * ? * and below that every minute. The 0 * * * * ? * is the actual cron expression you have created. Now click the Done button in the upper right corner of the photo. This will return you to the Add Trigger screen (shown below) 
+Under When choose the button that says 'on a schedule (cron)' (as shown in the picture above) Next,  Notice at the very top of the photo above it says Cron:0 * * * * ? * and below that every minute. The 0 * * * * ? * is the actual cron expression you have created. Now click the Done button in the upper right corner of the photo. This will return you to the Add Trigger screen (shown below) 
  
 ![cron every](https://user-images.githubusercontent.com/25418996/137601875-a3d4296d-abfd-4efb-a5f0-998c73c45e02.png)
 
